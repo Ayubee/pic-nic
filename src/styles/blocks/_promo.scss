@@ -1,0 +1,28 @@
+.promo {
+    width: 100%;
+    border-top: 10px solid red;
+    background-color: #191919;
+}
+
+.promo-subcontainer {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+    }
+
+    span {
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 22px;
+        color: red;
+        margin-left: 55px;
+    }
+}

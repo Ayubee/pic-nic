@@ -1,0 +1,44 @@
+.info {
+    width: 100%;
+}
+
+.info-container {
+    width: 80%;
+    margin-left: auto;
+    display: flex;
+    padding-top: 25px;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.num {
+    color: #FFFF00;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.info-text {
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+.info-link {
+    color: #26A5E4;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.info-img {
+    width: 20px;
+    height: 20px;
+}
