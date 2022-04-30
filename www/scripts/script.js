@@ -3,7 +3,7 @@ $(document).ready(function() {
   let link = $('.j-btn');
 
   link.mouseover(function(){
-      $('.promo-navi').show('slow');
+      $('.promo-navi').show();
   })
   link.mouseout(function(){
       $('.promo-navi').hide();
