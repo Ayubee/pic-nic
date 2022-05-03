@@ -3,6 +3,12 @@
     background-color: black;
     padding: 20px 20px;
 
+    @media (max-width: $mobile-max) {
+    
+        display:none;
+
+    }
+
 }
 
 .header-box {
@@ -43,8 +49,6 @@
         font-size: 28px;
         color: #0AE60E;
         margin-left: 10px;
-
-        
     }
 
 }
@@ -65,6 +69,12 @@
 
 .header-phone:hover {
     text-decoration:underline;
+
+    @media (max-width: $mobile-max) {
+        text-decoration: none;
+         
+ }
+    
 }
 .header-icon{
     width: 45px; height: 45px;

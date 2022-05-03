@@ -2,11 +2,20 @@ $(document).ready(function() {
 
   let link = $('.j-btn');
 
-  link.mouseover(function(){
-      $('.promo-navi').show();
+//   link.mouseover(function(){
+//       $('.promo-navi').show();
+//   })
+//   link.mouseout(function(){
+//       $('.promo-navi').hide();
+//   })
+
+  link.click(function(){
+      $('.promo-navi').slideToggle()
   })
-  link.mouseout(function(){
-      $('.promo-navi').hide();
+
+
+  $('.promo-menu').click( function(){
+        $('.j-promo-cont').slideToggle()
   })
 
     $('.slider-pic').slick({
@@ -15,6 +24,15 @@ $(document).ready(function() {
         pauseOnFocus:false,
         pauseOnHover:false,
         autoplay:true,
+        responsive:[
+          {
+            breakpoint:768,
+            setting:{
+              arrows:false,
+            }
+
+          }
+        ]
     });
 
    

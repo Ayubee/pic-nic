@@ -7,8 +7,10 @@
     margin-left: auto;
     display: flex;
     padding-top: 25px;
-    // justify-content: center;
-    // align-items: center;
+    @media (max-width: $mobile-max) {
+        margin-left: 10px;
+        width: 90%;
+}
 }
 
 .num {
@@ -17,6 +19,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 29px;
+
+    @media (max-width: $mobile-max) {
+        font-size: 20px;
+}
 }
 
 .info-text {
@@ -25,6 +31,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
+    @media (max-width: $mobile-max) {
+        font-size: 20px;
+        width: 100%;
+        overflow: hidden;
+}
 }
 
 
@@ -36,11 +47,15 @@
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
+
+    @media (max-width: $mobile-max) {
+        font-size: 20px;
+}
 }
 
 .info-img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .red {

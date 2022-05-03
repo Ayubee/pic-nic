@@ -2,12 +2,54 @@
     width: 100%;
     border-top: 10px solid red;
     background-color: #191919;
+
+    // @media (max-width: $mobile-max) {
+    //     display: none;
+
+    // }
+}
+
+.promo-btn {
+    display: none;
+    @media (max-width: $mobile-max) {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: none;
+        border: none;
+    }
+}
+
+
+.promo-menu {
+  
+   @media (max-width: $mobile-max) {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+
+}
 }
 
 .promo-subcontainer {
     display: flex;
     padding: 10px 10px;
     justify-content: space-around;
+
+    
+   @media (max-width: $mobile-max) {
+   display: none;
+   width: 100%;
+   position: absolute;
+   z-index: 15000000;
+   top: 39px;
+   background-color: #191919;
+
+}
+        
 
     a {
         font-family: Arial, sans-serif;
@@ -16,6 +58,37 @@
         font-size: 22px;
         color: white;
         text-decoration: none;
+
+        
+        @media (max-width: $mobile-max) {
+            font-size: 18px;
+         
+         }
+    }
+
+    p{
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 22px;
+        color: white;
+        text-decoration: none; 
+
+        @media (max-width: $mobile-max) {
+            font-size: 20px;
+            width: 100%;
+            margin-left: 100px;
+         }
+    }
+
+    .j-btn {
+        border: none;
+        background: none;
+        @media (max-width: $mobile-max) {
+            margin-top: 25px;
+         
+         }
+        
     }
 
     span {
@@ -25,6 +98,11 @@
         font-size: 22px;
         color: red;
         margin-left: 55px;
+
+        @media (max-width: $mobile-max) {
+            margin-left: 0;
+         
+         }
     }
 }
 
@@ -47,4 +125,12 @@
     font-size: 17px;
 
     p{color: white;}
+
+
+    
+    @media (max-width: $mobile-max) {
+        left: 10%;
+        height: 200px;
+     
+     }
 }
