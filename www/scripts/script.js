@@ -29,6 +29,8 @@ $(document).ready(function() {
             breakpoint:768,
             setting:{
               arrows:false,
+              pauseOnFocus:true,
+              pauseOnHover:true,
             }
 
           }
