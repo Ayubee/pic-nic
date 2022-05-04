@@ -16,6 +16,10 @@ $(document).ready(function() {
 
   $('.promo-menu').click( function(){
         $('.j-promo-cont').slideToggle()
+  });
+
+  $('.promo-menu').click(function(){
+    $('.promo-navi').hide()
   })
 
     $('.slider-pic').slick({
