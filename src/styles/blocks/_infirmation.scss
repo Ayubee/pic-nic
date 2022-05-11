@@ -1,0 +1,43 @@
+.infirmation{
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    border-radius:20px ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 90%;
+    position: absolute;
+    top: 85%;
+    left: -5%;
+    align-items: center;
+    display: flex;  
+
+    @media (max-width: $mobile-max) {
+        position: relative;
+        left: 0;
+        margin: 0;
+    }
+}
+.divInfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    span {
+        color:#0AE60E;
+        font-size: 20px;
+        font-family: 'sans-serif';
+    }
+    p{
+        color:#26A5E4;
+        font-size: 17px;
+        font-family: 'sans-serif';
+    }
+
+
+   
+}
+
+.info-href{
+    text-decoration:none;
+    display: flex;
+}

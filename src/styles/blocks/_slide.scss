@@ -1,11 +1,3 @@
-
-
-// .slider {
-//     background-size: cover;
-//     // background-position:center;
-//     background-repeat: no-repeat;
-// }
-
 .slick-list {
     overflow: hidden;
 }
@@ -17,8 +9,6 @@
 .slider-pic {
     position: relative;
 }
-
-
 
 .slider-pic .slick-arrow {
     position: absolute;
@@ -34,12 +24,6 @@
      
      }
 }
-
-// .slider-pic .slick-arrow:hover{
-//     display: flex;
-//     align-items: center;
-//     width: 60px; height: 60px;
-// }
 
 .slider-pic .slick-arrow.slick-prev {
     left: 5%;
@@ -78,7 +62,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
-    width: 100%; height: 576px;
+    width: 90%; height: 570px;
 
     @media (max-width: $mobile-max) {
          height: 300px;
@@ -99,27 +83,50 @@
 }
 
 .tube {
-    text-align: center;
-    background-image: url('../img/Pic-nic briketlarini yonuvchanligi.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+  display: flex;
+  justify-content: center;
     
 }
-.watch {
-    background-image: url('../img/pic-nicuz.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    // margin-bottom: auto;
-    margin-top: auto;
+
+.slider-hred {
+    background-image: url('../img/Pic-nic briketlarini yonuvchanligi.jpg');
     width: 100%;
-    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
 }
 
 .tube-img {
     width: 100px;
     height: 100px;
     margin-top: 180px;
+
+    @media (max-width:$mobile-max){
+        width: 50px;
+        height: 50pxnpm;
+    }
+}
+
+.picWatch {
+    background-image: url('../img/pic-nicuz.png');
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.watch {
+    display: flex;
+    justify-content: center;
+}
+.infoPicnic {
+    text-align: center;
+
+    @media (max-width: $mobile-max) {
+        width: 100%;
+        height:200px;
+    }
 }
 
 

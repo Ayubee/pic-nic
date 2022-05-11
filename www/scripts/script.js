@@ -38,7 +38,9 @@ $(document).ready(function() {
             }
 
           }
-        ]
+        ],
+        autoplaySpeed:30000
+
     });
 
    
