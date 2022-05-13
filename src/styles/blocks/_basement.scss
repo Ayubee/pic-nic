@@ -1,0 +1,59 @@
+.basement {
+
+    display: none;
+    @media (max-width: $mobile-max) {
+    
+        display: block;
+
+    }
+}
+
+.header-box {
+    
+    @media (max-width: $mobile-max) {
+        display: block;
+     
+     }
+}
+
+.header-container {
+    @media (max-width: $mobile-max) {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.header-links {
+    @media (max-width: $mobile-max) {
+        justify-content: flex-start;
+        margin: 10px 10px;
+    }
+}
+
+.header-info {
+    @media (max-width: $mobile-max) {
+            width: 100%;
+           display: block;
+           margin: 10px 10px 0 0;
+    }
+
+    a{
+        @media (max-width: $mobile-max) {
+            font-size: 25px;
+        }
+    }
+}
+
+.header-phone {
+    @media (max-width: $mobile-max) {
+        margin-top: 25px;
+    }
+}
+
+.header-translate {
+    @media (max-width: $mobile-max) {
+        display: none;
+    }
+}
+
